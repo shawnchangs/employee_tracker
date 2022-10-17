@@ -11,6 +11,7 @@ const db = mysql.createConnection(
     console.log(`Connected to the staff_db database.`)
 );
 
+// inquirer
 const inquirer = require('inquirer');
 
 const promptUser = () => {
